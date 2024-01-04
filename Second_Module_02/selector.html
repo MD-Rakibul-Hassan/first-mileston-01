@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        #head,.pra,.ul {
+            color: red;
+            background-color: black;
+            padding: 20px;
+        }
+        .ul {
+            list-style-type: none;
+            color: white;
+        }
+        input {
+            height: 20px;
+            width: 200px;
+            padding: 10px;
+        }
+        input[type = "email"] {
+            border: 0;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">This is hading of this webpage</h1>
+    <p class="pra">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident fugit fugiat maxime natus eum voluptates consequatur repellendus nam porro sit, debitis fuga odit blanditiis iusto nostrum magnam dolor illum similique.</p>
+    <ul class="ul">
+        <li>Tage selector</li>
+        <li>Class selector</li>
+        <li>Id selector</li>
+        <li>Universal selector</li>
+        <li>Group selector</li>
+    </ul>
+    <form action="">
+        <input type="text" name = "name">
+        <input type="email" name="email">
+    </form>
+</body>
+</html>
